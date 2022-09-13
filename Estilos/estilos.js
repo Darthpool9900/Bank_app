@@ -249,5 +249,65 @@ export default StyleSheet.create({
         fontSize:48,
         color:'#d3d3e3',
         textAlign:'center',
-      }
+      },
+      title_info_graph:{
+        fontFamily:'Roboto_300Light',
+        fontSize:42,
+        color:'#d3d3e3',
+        textAlign:'center',
+        fontFamily:'Roboto_300Light',
+        marginTop:'5%',
+
+    },
+    graph:{
+      marginTop:'10%',
+      backgroundColor:'rgba(65,65,65,0.3)',
+      width:'90%',
+      marginLeft:'5%',
+      height:460,
+      borderRadius:20,
+      alignItems:'center'
+      
+    },
+    grafico:{
+      marginTop:'10%',
+      height:300,
+      width:'80%',
+      borderColor:'#d3d3e3',
+      borderBottomWidth:1,
+      borderLeftWidth: 1
+    },
+    buton_pagar:{
+      textAlign:'center',
+      justifyContent: 'center',
+      marginTop:50,
+      backgroundColor:'#d3d3e3',
+      width:'100%',
+      height:50,
+      fontFamily:'Roboto_300Light',
+      color:'rgba(16, 16, 28,1)',
+      borderRadius:20,
+      fontSize:24,
+      padding:'2%'
+  },
+    cardInfo:{
+      fontFamily:'Roboto_300Light',
+        fontSize:34,
+        color:'#d3d3e3',
+        textAlign:'center',
+        fontFamily:'Roboto_300Light',
+        marginTop:'5%',
+
+    },
+    card_sel:{
+      marginTop:'10%',
+      backgroundColor:'rgba(65,65,65,0.3)',
+      width:'90%',
+      marginLeft:'5%',
+      height:300,
+      borderRadius:20,
+      alignItems:'center',
+      padding:'2%',
+    }
+    
 })

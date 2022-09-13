@@ -10,6 +10,7 @@ import estilo from './Estilos/estilos'
 import Loader from './Loader';
 import Fatura from './Fatura';
 import Login from './Login';
+import Cartoes from './Cartoes';
 
 
 export default function App() {
@@ -29,11 +30,12 @@ export default function App() {
  return(
   <NavigationContainer>
     <Stack.Navigator>
-      <Stack.Screen name="Login" component={Login} options={{headerShown:false}} initialParams={user}>
+      <Stack.Screen name="Login" component={Login} options={{headerShown:false}}>
       </Stack.Screen>
-      <Stack.Screen name="Home" component={Home} options={{headerShown:false}} initialParams={user}></Stack.Screen>
+      <Stack.Screen name="Home" component={Home} options={{headerShown:false}}></Stack.Screen>
       <Stack.Screen name="Conta" component={Conta} options={{headerShown:false}}></Stack.Screen>
       <Stack.Screen name="Fatura" component={Fatura} options={{headerShown:false}}></Stack.Screen>
+      <Stack.Screen name="Cartoes" component={Cartoes} options={{headerShown:false}}></Stack.Screen>
     </Stack.Navigator>
   </NavigationContainer>
  )

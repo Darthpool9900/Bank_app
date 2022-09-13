@@ -8,8 +8,8 @@ const imgH = height*0.2;
 export default function Cartao(){
 const data = [
   './assets/Cartao1.png',
-  './assets/Cartao1.png',
-  './assets/Cartao1.png',
+  './assets/Cartao2.png',
+  './assets/Cartao3.png',
 
 ]
 
